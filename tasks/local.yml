@@ -1,0 +1,32 @@
+- hosts: localhost
+  become: true
+  pre_tasks:
+    - name: Update update_cache
+      apt:
+      update_cache: true
+  tasks:
+    - include: tasks/node.yml
+    - include: tasks/neovim.yml
+    - include: tasks/go.yml
+    - name: Install curl
+      apt: name=curl
+    - name: "Install oh-my-bash"
+      shell: bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+    - name: Update, Upgrade
+      apt:
+        upgrade: yes
+        update_cache: yes
+    - name: Install Python3
+      apt: name=python3.10
+    - name: Install multiple packages
+      apt: name={{ item }} state=latest
+      loop: [git, wget, unzip, ninja-build, cmake, unzip, gettext]
+      tags:
+      - neovim
+    - name: Install MongoDB
+      apt: name=mongodb-org
+
+
+
+
+

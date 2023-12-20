@@ -1,0 +1,15 @@
+
+  - name: Install Neovim
+    ansible.builtin.git:
+      repo: 'https://github.com/neovim/neovim.git'
+      dest: /opt/
+  - name: Install vim
+    shell: cd /opt/neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
+  - name: Cmake Neovim
+    shell: sudo make install
+  - name: Copy Neovim
+    shell: cp /usr/local/neovim /usr/bin
+  - name: Install Neovim Packer
+    ansible.builtin.git:
+      repo: 'https://github.com/wbthomason/packer.nvim'
+      dest: ~/.local/share/nvim/site/pack/packer/start/packer.nvim
