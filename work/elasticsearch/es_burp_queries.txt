@@ -1,0 +1,16 @@
+
+curl_200(){
+curl -XGET "http://es8:9200/logger/_search" -H "kbn-xsrf: reporting" -H "Content-Type: application/json" -d'
+{
+  "query": {
+    "match": {
+      "Response.Status":{
+        "query":"200"  
+    }
+      
+  }
+}
+}'
+}
+
+

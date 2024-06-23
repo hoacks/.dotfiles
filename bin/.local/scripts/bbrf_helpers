@@ -1,0 +1,44 @@
+
+
+	docker run -it balcklanternsecurity/bbot:stable -t $1 -f subdomain-enum cloud-enum web-basic -m nmap
+
+
+	/usr/local/go/bin/github-endpoints -d $1 -t ~/.tokens -raw | tee >(gh_search_httpx.sh) >(gh_search.sh)
+
+
+	x8 -u ./vivos -x HEAD -w wordlist/parameters.txt -o x8.json --output-format url
+
+
+
+# gh_httpx_bbrf
+
+/usr/loca/go/bin/httpx -silent -sc -cl -nc -t 150 -ports 80,443,8443,8080,8000,8088 -mc 200,401 | tr '[]' | tee \
+	>(awk '{print $1" "$2" "$3}' | grep './js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -t type:javascript -s httpx --show-new) \
+	>(awk '{print $1" "$2" "$3}' | grep -v './js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -s httpx --show-new); 
+
+
+# gh_bbrf 
+
+
+cat | bbrf url add - -p @INFER -t updated:$(data +"%Y%m%d") --show-new
+
+
+# vivos
+
+/usr/local/go/bin/httpx -l ./vivos -silent -sc -cl -nc -t 150 -ports 80,443,8443,8080,8000,8088 -mc 200,401 \ 
+| tr -d '[]' | tee \ 
+	>(awk '{print $1" "$2" "$3}' | grep './js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -t type:javascript -s httpx --show-new) \
+	>(awk '{print $1" "$2" "$3}' | grep -v './js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -s httpx --show-new); 
+
+
+# Katana 
+
+/usr/local/bin/katana -list ./vivos -jc -jsl -d 3 -cos github,google,facebook \
+	-ef png,css,jgp,woff,woff2 -rlm 100 -hl -aff -sf rnd -silent -nos -f qurl | tee \
+	>(bbrf url add - -p @INFER -t updated:$(data +"%Y%d%d") -s katana --show-new);
+
+/usr/local/bin/naabu -l ./vivos -ep 80,443 -top-ports 1000 -ec -rate 1500 | tee \
+	>(bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -s naabu --show-new);
+
+
+

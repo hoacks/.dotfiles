@@ -1,0 +1,48 @@
+
+
+# httpx_vivos
+/usr/local/go/bin/httpx -l ./vivos -silent -sc -cl -nc -t 150 -ports 80,443,8443,8000,8088 -mc 200,401 | tr -d '[]' | tee \
+	>(awk '{print $1" "$2" "$3}' | grep '\.js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -t type:javascript -s httpx --show-new) \
+	>(awk '{print $1" "$2" "$3}' | grep -v '\.js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -s httpx --show-new);
+
+
+# run Bbot
+
+docker run -it blacklanternsecurity/bbot:stable -t $1 -f subdomain-enum cloud-enum web-basic -m nmap
+
+
+# gh_httpx_bbrf 
+
+/usr/local/go/bin/httpx -silent -sc -cl -nc -t 150 -ports 80,443,8443,8000,8088 -mc 200,401 | tr -d '[]' | tee \
+	>(awk '{print $1" "$2" "$3}' | grep '\.js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -t type:javascript -s github --show-new) \
+	>(awk '{print $1" "$2" "$3}' | grep -v '\.js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -s github --show-new);
+
+
+
+# katana vivos
+
+/usr/local/bin/katana -list ./vivos -jc -jsl -d 3 -cos github,google,facebook \
+	-ef png,css,jgp,woff,woff2 -rlm 100 -hl -aff -sf rnd -silent -nos -f qurl | tee \
+	>(bbrf url add - -p @INFER -t updated:(date +"%Y%m%d") -s katana --show-new);
+
+
+# Naabu
+
+
+
+/usr/local/bin/naabu -list ./vivos -ep 80,443 -top-ports 1000 -ec -rate 1500 | tee \ 
+	>(bbrf url add - -p @INFER -t updated:(date +"%Y%m%d") -s naabu --show-new);
+
+
+# x8 
+
+x8 -u ./vivos -x HEAD -w wordlist/parameters.txt -o x8.json --output-format url
+
+
+# zero-tier 
+
+zero-tier join
+
+# Mount NAS
+
+mount -t nfs 172.25.158.193:/volume1/BugBounty /root/NAS/

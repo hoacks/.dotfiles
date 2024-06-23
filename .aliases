@@ -1,0 +1,54 @@
+
+#// Personal Aliases
+alias vim="/usr/bin/nvim"
+#alias lfi="curl -H 'Accept: ../../../../../../../../../etc/passwd{{' "
+alias python="python3"
+alias tmpdir="cd $(mktemp -d)"
+#alias  carlo="axiom-init carlo "
+#alias ipvanish="cd /home/joaco/tools/ipvanish"
+#alias vanish="sudo openvpn --config ipvanish-US-San-Jose-sjc-a34.ovpn"
+#alias netmon="speedometer -l  -r enp2s0 -t enp2s0 -m $(( 1024 * 1024 * 3 / 2 ))"
+#alias so="source ~/.bashrc"
+#alias vi="vim ~/.bashrc"
+#alias apklks="cat scope.txt | while read apk ; do apkleaks -f apk_file/$apk -o $apk.out ;done"
+#alias xnlinkfinder='python3 /home/joaco/tools/xnLinkFinder/xnLinkFinder.py'
+#alias das='docker run --rm -it --name das -v ~/.das:/root/.das -v `pwd`:/app -p 8050:8050 snovvcrash/divideandscan'
+#alias gbox="gcloud compute ssh instance-1"
+##alias VIMENV='prev vim $@'
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+##export PATH=$PATH:$HOME/.cargo/bin
+#alias vps2burp='ssh -R 8080:127.0.0.1:8080 root@165.232.159.18 -f -N'
+#alias amass-ro="jq -r '[.domains[].names[] | {name: .name, num: .sources | length}] | sort_by(.num) | reverse | .[].name'"
+#alias d2j-dex2jar="sh /home/joaco/tools/dex2jar/dex-tools/build/distributions/dex-tools-2.2-SNAPSHOT/d2j-dex2jar.sh"
+#alias baksmali="sh /home/joaco/tools/dex2jar/dex-tools/build/distributions/dex-tools-2.2-SNAPSHOT/d2j-baksmali.sh"
+#alias apkizer="python3 ~/tools/reverse-apk/apkizer/apkizer.py"
+#alias jadx="/opt/jadx/bin/jadx"
+#alias master="/home/joaco/tools/scripts/ENUM_ACTIVE.sh"
+#alias crli='curl -sS --path-as-is -gk -D /dev/stderr -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"'
+#alias silver="sudo python3 /home/joaco/tools/Silver/silver.py -o ./ips.json --quick -i"
+#alias cp-bc="scp vivos ips domains aliveIPS.txt aliveSUBDOMAINS.txt deadSUBDOMAINS.txt gau.out gau.xss root@165.232.159.18:~/"
+#alias cp-xss="scp vivos ips domains aliveIPS.txt  aliveSUBDOMAINS.txt deadSUBDOMAINS.txt gau.out gau.xss root@138.197.172.169:~/"
+#alias vpn="sudo sh -c 'openvpn /etc/openvpn/TorGuard.USA-LAS-VEGAS.conf'"
+#alias urless='python3 /home/joaco/tools/urless/urless.py'
+#alias getjs='/home/joaco/tools/scripts/get_all_js.sh'
+alias work="cd /home/joaco/NAS"
+alias uro="/usr/local/bin/uro"
+alias gau="/home/joaco/go/bin/gau"
+#alias uber-apk-signer="java -jar /home/joaco/tools/uber-apk-signer/uber-apk-signer.jar"
+#alias h2csmuggler="python /home/joaco/tools/h2csmuggler/h2csmuggler.py"
+#alias favfreak="python3 /home/joaco/tools/FavFreak/favfreak.py"
+alias waymore="python3 /home/joaco/tools/waymore/waymore/waymore.py"
+alias sqlmap="python3 /home/joaco/tools/sqlmap-dev/sqlmap.py"
+alias 4ZERO3="bash /home/joaco/tools/4-ZERO-3/403-bypass.sh --exploit -u"
+#alias vps="ssh root@143.198.227.33"
+alias burp="sudo /home/joaco/tools/Burp-Suite-Pro/launcher.sh"
+alias 5k="/home/joaco/wordlist/5k.txt"
+alias lj="ls -lahrt"
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+alias vps="ssh root@157.173.199.220"
