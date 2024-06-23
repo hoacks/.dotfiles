@@ -222,7 +222,6 @@ firefox --no-remote --profile /home/joaco/.mozilla/firefox/c34tgz12.ztv9h29d.fuz
 
 bindkey -s ^f "tmux-sessionizer\n"
 #bind  '"\C-i":"cht.sh\n"'
-export PDCP_API_KEY=764c6fa0-7a46-4968-8a10-976211f1694f
 
 EDITOR=/usr/local/bin/nvim
 
