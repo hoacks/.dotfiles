@@ -1,3 +1,3 @@
-[submodule "personal"]
-	path = personal
+[submodule "code"]
+	path = code
 	url = git@github.com:hoacks/code.git
