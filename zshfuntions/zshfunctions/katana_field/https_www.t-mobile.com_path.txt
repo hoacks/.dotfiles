@@ -1,0 +1,5 @@
+/responsibility/privacy
+/privacy-center
+/signin
+/contact-us.html
+/dns

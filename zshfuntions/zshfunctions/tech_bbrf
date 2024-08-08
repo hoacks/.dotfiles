@@ -1,0 +1,8 @@
+
+IFS=$'\n'
+cat ./vivos | httpx -nc -silent -sc -cl -mc 200,403,401 | tee vivos.tech \
+for line in  $(cat vivos.tech);do 
+	td=$(printf "$line" | awk -F"[" '{print $4}' | tr ' ' \_ | tr -d ']'); \
+		echo $line| awk '{print $1" "$2" "$3}'|tr -d '[]' |\
+		bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -t tech:$(echo $td)\
+	;done

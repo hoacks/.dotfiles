@@ -1,0 +1,3 @@
+/cdn-cgi/images/
+/cdn-cgi/styles/
+/cdn-cgi/styles/

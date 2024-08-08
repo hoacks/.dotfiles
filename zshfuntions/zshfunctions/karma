@@ -1,0 +1,3 @@
+karma(){
+	bash ~/tools/karma_v2/karma_v2 -d "$1" -deep -l -1
+}

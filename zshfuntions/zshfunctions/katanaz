@@ -1,0 +1,4 @@
+katanaz(){
+	echo "$1" | katana -silent 
+}
+

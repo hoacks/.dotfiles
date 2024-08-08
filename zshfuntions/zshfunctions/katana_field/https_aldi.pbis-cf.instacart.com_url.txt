@@ -1,0 +1,4 @@
+https://aldi.pbis-cf.instacart.com
+https://aldi.pbis-cf.instacart.com/cdn-cgi/styles/cf.errors.ie.css
+https://aldi.pbis-cf.instacart.com/cdn-cgi/styles/cf.errors.css
+https://aldi.pbis-cf.instacart.com/cdn-cgi/images/01235678

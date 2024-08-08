@@ -1,9 +1,5 @@
 
 
-# httpx_vivos
-/usr/local/go/bin/httpx -l ./vivos -silent -sc -cl -nc -t 150 -ports 80,443,8443,8000,8088 -mc 200,401 | tr -d '[]' | tee \
-	>(awk '{print $1" "$2" "$3}' | grep '\.js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -t type:javascript -s httpx --show-new) \
-	>(awk '{print $1" "$2" "$3}' | grep -v '\.js' | bbrf url add - -p @INFER -t updated:$(date +"%Y%m%d") -s httpx --show-new);
 
 
 # run Bbot

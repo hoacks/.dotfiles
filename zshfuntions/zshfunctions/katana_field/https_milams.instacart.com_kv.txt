@@ -1,0 +1,14 @@
+return_to=/help/article/terms-of-promotion
+return_to=/help/section/360008857171/360043036472
+return_to=/help/section/360008857171/360050397131
+return_to=/help/section/360008857171/7119221088916
+return_to=/help/section/360008857171/360043471611
+return_to=/help/section/360008857171/360043036372
+return_to=/help/section/360008857171/360043036572
+return_to=/help/section/360008857171/360043036392
+return_to=/help/section/360008857171/360043471671
+return_to=/help/section/360008857171/6984906449428
+return_to=/help/section/360008857171/360043471551
+return_to=/help/section/360008857171/360043471711
+return_to=/help/section/360008857171/360043471631
+return_to=/help/section/360008857171/6844009398548

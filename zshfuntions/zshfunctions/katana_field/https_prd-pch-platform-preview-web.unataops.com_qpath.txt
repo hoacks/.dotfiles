@@ -1,0 +1,10 @@
+/env-config.js?v=1
+/paypal?PayerID=&paymentId=&session-token=&token=
+/cart_compare?initialStoreId=&redirect=&session-token=&updatedStoreId=
+/cart_transfer?initialContext=&redirect=&updatedContext=
+/?collections=
+/social-redirect/:provider?access_token=&code=&error=&error_description=&id_token=&is_rx_session_valid=&jwt=&oauth_token=&oauth_verifier=&rx_session=&state=&token=
+/vantiv?AVSResponseCode=&CVVResponseCode=&CardLogo=&ExpressResponseCode=&ExpressResponseMessage=&HostedPaymentStatus=&LastFour=&PaymentAccountID=&ServicesID=&TransactionID=&TransactionSetupID=&ValidationCode=&args=
+/ClientTokenizeCard?format=json
+/condition_products?page=
+/reward_products?page=

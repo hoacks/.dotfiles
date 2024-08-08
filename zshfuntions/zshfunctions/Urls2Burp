@@ -1,0 +1,5 @@
+#!/bin/bash 
+# run with program after you run getUrls, used today date to pull urls from bbrf.
+urls2burp(){
+	bbrf urls where updated is $(date +"%Y%m%d") -p "$1" 
+}

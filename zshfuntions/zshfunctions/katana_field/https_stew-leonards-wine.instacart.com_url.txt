@@ -1,0 +1,8 @@
+https://stew-leonards-wine.instacart.com/api/
+https://stew-leonards-wine.instacart.com/assets
+https://stew-leonards-wine.instacart.com/orders/
+https://stew-leonards-wine.instacart.com/ex/
+https://stew-leonards-wine.instacart.com/store/
+https://stew-leonards-wine.instacart.com/
+https://stew-leonards-wine.instacart.com
+https://stew-leonards-wine.instacart.com/client-side-redirect/*

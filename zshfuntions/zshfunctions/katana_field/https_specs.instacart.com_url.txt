@@ -1,0 +1,8 @@
+https://specs.instacart.com/api/
+https://specs.instacart.com/orders/
+https://specs.instacart.com/assets
+https://specs.instacart.com/client-side-redirect/*
+https://specs.instacart.com/ex/
+https://specs.instacart.com
+https://specs.instacart.com/
+https://specs.instacart.com/store/

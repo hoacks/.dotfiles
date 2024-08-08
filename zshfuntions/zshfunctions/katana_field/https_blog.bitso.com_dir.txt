@@ -1,0 +1,14 @@
+/pt-br/bitso-br/
+/es-co/bitso-co/
+/es-ar/bitso-ar/
+/pt-br/bitso-br/
+/guides/
+/finance/
+/es-co/bitso-co/
+/bitso/
+/es-mx/bitso-mx/
+/es-mx/bitso-mx/
+/es-ar/bitso-ar/
+/es-ar/bitso-ar/
+/es-co/bitso-co/
+/pt-br/bitso-br/

@@ -1,0 +1,6 @@
+https://uat-top-platform-master-web.unataops.com
+https://uat-top-platform-master-web.unataops.com/cart?skip_totals=true
+https://uat-top-platform-master-web.unataops.com/ic-express/_originals/instacart-logo
+https://uat-top-platform-master-web.unataops.com/shop/recipes
+https://uat-top-platform-master-web.unataops.com/4844.1e1a2311.js
+https://uat-top-platform-master-web.unataops.com/ic-express/_originals/piggy-bank

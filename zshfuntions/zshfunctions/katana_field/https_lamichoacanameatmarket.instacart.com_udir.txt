@@ -1,0 +1,5 @@
+https://lamichoacanameatmarket.instacart.com/orders/
+https://lamichoacanameatmarket.instacart.com/ex/
+https://lamichoacanameatmarket.instacart.com/client-side-redirect/
+https://lamichoacanameatmarket.instacart.com/api/
+https://lamichoacanameatmarket.instacart.com/store/

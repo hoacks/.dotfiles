@@ -1,0 +1,2 @@
+/support/tickets/new
+/support/home

@@ -1,0 +1,8 @@
+https://myfoodcity.instacart.com/assets
+https://myfoodcity.instacart.com
+https://myfoodcity.instacart.com/client-side-redirect/*
+https://myfoodcity.instacart.com/orders/
+https://myfoodcity.instacart.com/ex/
+https://myfoodcity.instacart.com/store/
+https://myfoodcity.instacart.com/api/
+https://myfoodcity.instacart.com/

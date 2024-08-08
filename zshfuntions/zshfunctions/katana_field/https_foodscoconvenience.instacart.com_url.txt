@@ -1,0 +1,9 @@
+https://foodscoconvenience.instacart.com/api/
+https://foodscoconvenience.instacart.com/ex/
+https://foodscoconvenience.instacart.com/orders/
+https://foodscoconvenience.instacart.com/assets
+https://foodscoconvenience.instacart.com/client-side-redirect/*
+https://foodscoconvenience.instacart.com/manifest.json
+https://foodscoconvenience.instacart.com
+https://foodscoconvenience.instacart.com/store/
+https://foodscoconvenience.instacart.com/

@@ -1,0 +1,10 @@
+https://apis.roblox.com/user-settings-api
+https://apis.roblox.com/universal-app-configuration
+https://apis.roblox.com/sharelinks
+https://apis.roblox.com/user-agreements
+https://apis.roblox.com/restricted-hours-service
+https://apis.roblox.com/pass-product-purchasing
+https://apis.roblox.com/bundles-product-purchasing
+https://apis.roblox.com/game-update-notifications
+https://apis.roblox.com/chargeback-wizard
+https://apis.roblox.com/contacts-api

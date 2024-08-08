@@ -1,0 +1,2 @@
+/env-config.js?v=1
+/vantiv?CardLogo=&ExpressResponseCode=&ExpressResponseMessage=&HostedPaymentStatus=&LastFour=&PaymentAccountID=&ServicesID=&TransactionID=&TransactionSetupID=&ValidationCode=&args=

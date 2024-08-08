@@ -1,0 +1,2 @@
+https://uat-gar-platform-master-web.unataops.com/env-config.js?v=1
+https://uat-gar-platform-master-web.unataops.com/vantiv?HostedPaymentStatus&TransactionID&TransactionSetupID&ServicesID&ExpressResponseCode&ExpressResponseMessage&PaymentAccountID&LastFour&ValidationCode&CardLogo&args

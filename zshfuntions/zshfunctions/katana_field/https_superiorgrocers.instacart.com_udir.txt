@@ -1,0 +1,5 @@
+https://superiorgrocers.instacart.com/api/
+https://superiorgrocers.instacart.com/orders/
+https://superiorgrocers.instacart.com/client-side-redirect/
+https://superiorgrocers.instacart.com/ex/
+https://superiorgrocers.instacart.com/store/

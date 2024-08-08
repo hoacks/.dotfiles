@@ -1,0 +1,5 @@
+https://stage.bitso.com/history/scheduled/withdrawals/
+https://stage.bitso.com/history/scheduled/withdrawals/share/
+https://stage.bitso.com/history/scheduled/withdrawals/cancel/
+https://stage.bitso.com/support/
+https://stage.bitso.com/security-gate/withdrawal/manual-review/cancelation/

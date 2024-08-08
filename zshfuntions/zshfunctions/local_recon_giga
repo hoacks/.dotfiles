@@ -1,0 +1,9 @@
+local_recon_giga() {
+
+	# Create session Recon Passive with window name Dorking
+	tmux new-session -d -s 'Recon' -n 'Dirsearch' 
+	# Send command to Recon session 
+	tmux send-keys -t Recon \"dirsearch -u $1 -e html,aspx,js,php,asp,jsp -x 404,403,500,429,301,302 \' # |  tee  >(awk '{print $3" "$1" "$2}' \
+#		| bbrf url add - -t updated:$(date +”%Y%m%d”) -p @INFER --show-new \"
+
+}

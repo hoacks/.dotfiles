@@ -1,0 +1,16 @@
+https://appd-geo.geo.t-mobile.com/geo/assets/opensans/v13/
+https://appd-geo.geo.t-mobile.com/geo/assets/opensans/v13/
+https://appd-geo.geo.t-mobile.com/geo/
+https://appd-geo.geo.t-mobile.com/geo/assets/
+https://appd-geo.geo.t-mobile.com/geo/
+https://appd-geo.geo.t-mobile.com/geo/debug/
+https://appd-geo.geo.t-mobile.com/geo/assets/opensans/v13//
+https://appd-geo.geo.t-mobile.com/geo/fonts/
+https://appd-geo.geo.t-mobile.com/geo/
+https://appd-geo.geo.t-mobile.com/geo/fonts/
+https://appd-geo.geo.t-mobile.com/geo/fonts/
+https://appd-geo.geo.t-mobile.com/geo/fonts/
+https://appd-geo.geo.t-mobile.com/geo/fonts/
+https://appd-geo.geo.t-mobile.com/geo/fonts/
+https://appd-geo.geo.t-mobile.com/geo/debug/
+https://appd-geo.geo.t-mobile.com/geo/assets/

@@ -1,0 +1,8 @@
+/api/
+/ex/
+/orders/
+/assets
+/client-side-redirect/*
+/manifest.json
+/store/
+/

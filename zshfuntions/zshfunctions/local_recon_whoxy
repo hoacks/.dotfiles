@@ -1,0 +1,5 @@
+local_recon_whoxy(){
+	vps tmux new-window -a -n 'Whoxy' 
+	# Send command to Recon session 
+	vps tmux send-keys -t Recon \" whoxy $1 \"
+	}

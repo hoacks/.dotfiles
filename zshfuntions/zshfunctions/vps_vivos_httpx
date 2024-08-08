@@ -1,0 +1,7 @@
+vps_vivos_httpx(){	
+	# Create new window Httpx
+	vps tmux new-window -n httpx -t ReconAuto
+	# Send command httpx to window httpx
+	vps tmux send-keys -t ReconAuto:httpx \' httpx \' ENTER
+	}
+	

@@ -1,0 +1,5 @@
+https://stage.bitso.com/history/scheduled/withdrawals/0ce2e29d-359a-4f07-ae5e-547e567627a9
+https://stage.bitso.com/history/scheduled/withdrawals/share/1fc42f6d-fd93-4d07-a235-1f1523120310
+https://stage.bitso.com/history/scheduled/withdrawals/cancel/1fc42f6d-fd93-4d07-a235-1f1523120310
+https://stage.bitso.com/support/chat
+https://stage.bitso.com/security-gate/withdrawal/manual-review/cancelation/4fcf23a5fb107199f239006e4beb0ad1

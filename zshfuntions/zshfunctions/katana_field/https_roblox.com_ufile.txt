@@ -1,0 +1,3 @@
+https://roblox.com/*.ashx
+https://roblox.com/error.html
+https://roblox.com/offline.html

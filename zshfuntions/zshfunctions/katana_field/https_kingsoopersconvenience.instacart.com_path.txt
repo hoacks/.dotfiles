@@ -1,0 +1,17 @@
+/orders/
+/api/
+/assets
+/client-side-redirect/*
+/manifest.json
+/ex/
+/store/
+/
+/company/blog
+/grocery-delivery
+/privacy
+/terms
+/help
+/categories/
+/alcohol-delivery
+/retailers
+/company/contact-us

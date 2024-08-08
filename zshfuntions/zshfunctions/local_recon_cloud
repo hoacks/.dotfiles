@@ -1,0 +1,5 @@
+local_recon_cloud(){
+	vps tmux new-window -a -n 'Cloud' 
+	# Send command to Recon session 
+	vps tmux send-keys -t Recon \" cloud  $1 \"
+	}

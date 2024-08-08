@@ -1,0 +1,8 @@
+desktop-footer.html
+desktop-header.html
+mobile-app-header.html
+mobile-web-header.html
+version.json
+collapse-icon.svg
+sprouts-logo.svg
+shop-bag-icon.svg

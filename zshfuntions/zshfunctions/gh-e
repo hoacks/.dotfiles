@@ -1,0 +1,4 @@
+gh-e(){
+	go run ~/tools/github-endpoints/main.go -d "$1" -t ~/.tokens -raw -o gh_"$1".out 
+}
+

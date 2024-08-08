@@ -1,0 +1,7 @@
+vps_vivos_x8() {
+	# Create new window paramspider 
+	vps tmux new-window -n x8 -t ReconAuto
+	# Send command paramspider to window Paramspider
+	vps tmux send-keys -t ReconAuto:x8 \' x8 \' ENTER
+}
+

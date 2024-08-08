@@ -1,0 +1,8 @@
+/orders/
+/api/
+/client-side-redirect/
+/ex/
+/store/
+/company/
+/categories/
+/company/

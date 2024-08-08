@@ -1,0 +1,13 @@
+/role/full-service
+/role/in-store-shopper
+/instacart-jobs-in-west-la
+/instacart-jobs-in-lower-manhattan
+/instacart-jobs-in-chicago-il
+/instacart-jobs-in-dc
+/instacart-jobs-in-san-francisco
+/instacart-jobs-in-miami
+/instacart-jobs-in-las-vegas-nv
+/instacart-jobs-in-atlanta
+/instacart-jobs-in-dallas
+/help/help_center/login
+/

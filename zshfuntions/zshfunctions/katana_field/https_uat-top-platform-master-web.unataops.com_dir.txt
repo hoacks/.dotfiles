@@ -1,0 +1,3 @@
+/ic-express/_originals/
+/shop/
+/ic-express/_originals/

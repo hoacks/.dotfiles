@@ -1,0 +1,6 @@
+vps_vivos_naabu() {
+	# Create new window Naabu 
+	vps tmux new-window -n naabu -t ReconAuto
+	# Send command naabu to window Naabu 
+	vps tmux send-keys -t ReconAuto:naabu \' naabu \' ENTER
+	}

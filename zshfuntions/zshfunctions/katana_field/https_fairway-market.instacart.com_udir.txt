@@ -1,0 +1,5 @@
+https://fairway-market.instacart.com/api/
+https://fairway-market.instacart.com/client-side-redirect/
+https://fairway-market.instacart.com/ex/
+https://fairway-market.instacart.com/orders/
+https://fairway-market.instacart.com/store/

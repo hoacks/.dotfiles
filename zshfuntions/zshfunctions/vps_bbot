@@ -1,0 +1,7 @@
+vps_recon_active() {
+       	
+	# Create new window BBot 
+	vps tmux new-window -n Bbot -t ReconAuto
+	# Send command Bbot to window Bbot 
+	vps tmux send-keys -t ReconAuto:Bbot \' bbot "$1" \' ENTER
+	}

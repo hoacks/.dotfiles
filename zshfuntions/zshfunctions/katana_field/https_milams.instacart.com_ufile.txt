@@ -1,0 +1,2 @@
+https://milams.instacart.com/manifest.json
+https://milams.instacart.com/gtm.js

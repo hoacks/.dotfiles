@@ -1,0 +1,12 @@
+v=1
+ValidationCode=
+CardLogo=
+ExpressResponseCode=
+PaymentAccountID=
+LastFour=
+ServicesID=
+ExpressResponseMessage=
+args=
+HostedPaymentStatus=
+TransactionID=
+TransactionSetupID=

@@ -1,0 +1,2 @@
+https://api.bitso.com
+https://api.bitso.com/cdn-cgi/styles/main.css

@@ -1,0 +1,5 @@
+/en/support/solutions/articles/
+/es-LA/support/solutions/articles/
+/pt-BR/support/solutions/articles/
+/support/
+/support/solutions/articles/

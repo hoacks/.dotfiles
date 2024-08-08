@@ -1,0 +1,10 @@
+https://prd-pch-platform-preview-web.unataops.com/env-config.js?v=1
+https://prd-pch-platform-preview-web.unataops.com/paypal?session-token&paymentId&PayerID&token
+https://prd-pch-platform-preview-web.unataops.com/cart_compare?initialStoreId&updatedStoreId&session-token&redirect
+https://prd-pch-platform-preview-web.unataops.com/cart_transfer?initialContext&updatedContext&redirect
+https://prd-pch-platform-preview-web.unataops.com/?collections
+https://prd-pch-platform-preview-web.unataops.com/social-redirect/:provider?access_token&code&jwt&state&oauth_token&oauth_verifier&id_token&token&error&error_description&rx_session&is_rx_session_valid
+https://prd-pch-platform-preview-web.unataops.com/vantiv?HostedPaymentStatus&TransactionID&TransactionSetupID&ServicesID&ExpressResponseCode&ExpressResponseMessage&PaymentAccountID&LastFour&ValidationCode&CardLogo&args&CVVResponseCode&AVSResponseCode
+https://prd-pch-platform-preview-web.unataops.com/ClientTokenizeCard?format=json
+https://prd-pch-platform-preview-web.unataops.com/condition_products?page
+https://prd-pch-platform-preview-web.unataops.com/reward_products?page

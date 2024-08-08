@@ -1,0 +1,8 @@
+/v1/projects/
+/cdn/analytics.js/v1/M9AMBl27IWZg3tLNMwuL0IQsyVqjrO8p/
+/analytics-next/bundles/
+/cdn/analytics.js/v1/M9AMBl27IWZg3tLNMwuL0IQsyVqjrO8p/
+/cdn/analytics.js/v1/M9AMBl27IWZg3tLNMwuL0IQsyVqjrO8p/
+/v1/projects/
+/analytics-next/bundles/
+/cdn/analytics.js/v1/M9AMBl27IWZg3tLNMwuL0IQsyVqjrO8p/

@@ -1,0 +1,7 @@
+vps_vivos_katana() {
+	# Create new window katana
+	vps tmux new-window -n katana -t ReconAuto
+	# Send command katana to window Dnsx
+	vps tmux send-keys -t ReconAuto:katana \' katana \' ENTER
+
+}

@@ -1,0 +1,5 @@
+https://draegers.instacart.com/api/
+https://draegers.instacart.com/client-side-redirect/
+https://draegers.instacart.com/ex/
+https://draegers.instacart.com/orders/
+https://draegers.instacart.com/store/

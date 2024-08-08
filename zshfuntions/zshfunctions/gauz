@@ -1,0 +1,4 @@
+gauz() {
+	echo "$1" | /home/joaco/go/bin/gau | tee gau_"$1".out
+
+}

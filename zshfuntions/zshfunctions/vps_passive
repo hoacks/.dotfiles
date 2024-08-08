@@ -1,0 +1,7 @@
+vps_recon_passive(){
+	# Create session Recon Auto with window name Gitsearch
+	vps tmux new-session -d -s 'ReconAuto' -n 'GitSearch' 
+	# Send command to Recon session 
+	vps tmux send-keys -t ReconAuto:GitSearch  \' ghs "$1" \' ENTER
+
+}

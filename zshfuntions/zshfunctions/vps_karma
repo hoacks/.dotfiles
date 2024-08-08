@@ -1,0 +1,7 @@
+vps_recon_karma() {
+       	
+	# Create new window karma 
+	vps tmux new-window -n Karma -t ReconAuto
+	# Send command Bbot to window karma
+	vps tmux send-keys -t ReconAuto:karma \' karma "$1" \' ENTER
+	}

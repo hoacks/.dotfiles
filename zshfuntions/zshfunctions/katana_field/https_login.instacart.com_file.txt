@@ -1,0 +1,2 @@
+analytics.min.js
+manifest.json

@@ -1,0 +1,5 @@
+local_recon_meta(){
+	vps tmux new-session -d -s 'Recon' -n 'Meta-Detector' 
+	# Send command to Recon session 
+	vps tmux send-keys -t Recon \"meta-detector $1 \"
+	}

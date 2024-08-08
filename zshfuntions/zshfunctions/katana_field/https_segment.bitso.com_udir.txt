@@ -1,0 +1,8 @@
+https://segment.bitso.com/v1/projects/
+https://segment.bitso.com/cdn/analytics.js/v1/M9AMBl27IWZg3tLNMwuL0IQsyVqjrO8p/
+https://segment.bitso.com/analytics-next/bundles/
+https://segment.bitso.com/cdn/analytics.js/v1/M9AMBl27IWZg3tLNMwuL0IQsyVqjrO8p/
+https://segment.bitso.com/cdn/analytics.js/v1/M9AMBl27IWZg3tLNMwuL0IQsyVqjrO8p/
+https://segment.bitso.com/v1/projects/
+https://segment.bitso.com/analytics-next/bundles/
+https://segment.bitso.com/cdn/analytics.js/v1/M9AMBl27IWZg3tLNMwuL0IQsyVqjrO8p/

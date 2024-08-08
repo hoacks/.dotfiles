@@ -1,0 +1,10 @@
+/user-settings-api
+/universal-app-configuration
+/sharelinks
+/user-agreements
+/restricted-hours-service
+/pass-product-purchasing
+/bundles-product-purchasing
+/game-update-notifications
+/chargeback-wizard
+/contacts-api

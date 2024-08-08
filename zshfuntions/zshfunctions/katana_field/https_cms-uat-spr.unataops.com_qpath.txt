@@ -1,0 +1,1 @@
+/deals-of-the-month/?auto_locate=true

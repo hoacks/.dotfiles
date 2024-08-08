@@ -1,0 +1,18 @@
+local_recon_manual()
+{
+	# Create session Recon Auto with window name Gitsearch
+	tmux new-session -d -s 'ReconManual' -n 'GitSearch' 
+	# Send command to Recon session 
+	tmux send-keys -t ReconManual:GitSearch  \' gh-e "$1" \' ENTER
+	# Shodan Karma tools
+	tmux send-keys -t ReconManual:Karma\' karma "$1" \' ENTER
+	# Gau wayback endpoints tools	
+	tmux send-keys -t ReconManual:Gau\' gauz "$1" \' ENTER
+	# Create session Recon Passive with window name Dorking
+	tmux new-session -d -s 'Recon' -n 'Meta-Detector' 
+	# Create new window Whoxy
+	tmux new-window -n whoxy -t Recon
+	# Send command curl to window whoxy (Company name with + for spaces)
+	tmux send-keys -t Recon:whoxy \'curl https://api.whoxy.com\?key\=93cd4aa6f6a5c0c6i0f8093ee2df45f81\&reverse\=whois\&company\="$1"\&mode\=micro\&page=5\' 
+
+}

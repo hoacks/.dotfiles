@@ -1,0 +1,2 @@
+https://login.instacart.com/analytics.min.js
+https://login.instacart.com/manifest.json

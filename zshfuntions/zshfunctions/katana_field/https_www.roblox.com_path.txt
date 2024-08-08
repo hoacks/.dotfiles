@@ -1,0 +1,11 @@
+/upgrades/robux
+/catalog
+/redeem
+/premium/membership
+/support
+/discover
+/giftcards
+/
+/login
+/download
+/illegal-content-reporting

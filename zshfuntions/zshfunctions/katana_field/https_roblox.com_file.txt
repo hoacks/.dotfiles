@@ -1,0 +1,3 @@
+*.ashx
+error.html
+offline.html

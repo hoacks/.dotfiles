@@ -1,0 +1,6 @@
+local_recon_dirsearch(){
+	# Create session Recon Passive with window name Dorking
+	vps tmux new-session -d -s 'Recon' -n 'Dirsearch' 
+	# Send command to Recon session 
+	vps tmux send-keys -t Recon \"dirsearch -u $1 -e html,aspx,js,php,asp,jsp -x 404,403,500,429,301,302 
+	}

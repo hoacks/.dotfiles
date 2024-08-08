@@ -1,0 +1,8 @@
+https://kingsoopersconvenience.instacart.com/orders/
+https://kingsoopersconvenience.instacart.com/api/
+https://kingsoopersconvenience.instacart.com/client-side-redirect/
+https://kingsoopersconvenience.instacart.com/ex/
+https://kingsoopersconvenience.instacart.com/store/
+https://kingsoopersconvenience.instacart.com/company/
+https://kingsoopersconvenience.instacart.com/categories/
+https://kingsoopersconvenience.instacart.com/company/

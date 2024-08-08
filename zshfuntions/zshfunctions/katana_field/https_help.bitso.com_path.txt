@@ -1,0 +1,6 @@
+/en/support/solutions/articles/11000110568-how-do-i-set-up-my-api-keys-
+/es-LA/support/solutions/articles/11000110568--cómo-configuro-mis-llaves-de-api-
+/pt-BR/support/solutions/articles/11000110568-como-configuro-minhas-chaves-de-api-
+/support/solutions
+/support/solutions/articles/1000210147--c-mo-comprar-bitcoin-en-3-pasos-
+/

@@ -1,0 +1,7 @@
+/orders/
+/assets
+/client-side-redirect/*
+/ex/
+/api/
+/
+/store/

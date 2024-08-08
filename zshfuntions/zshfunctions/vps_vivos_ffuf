@@ -1,0 +1,6 @@
+vps_vivos_ffuf(){
+ 	# Create new window Ffuf
+	vps tmux new-window -n ffuf -t ReconAuto
+	# Send command ffuf to window ffuf
+	vps tmux send-keys -t ReconAuto:ffuf \'fuff  \' ENTER
+	}

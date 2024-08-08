@@ -1,0 +1,40 @@
+#!/bin/bash
+
+
+getUrls()
+{
+    program="$1"
+    doms=$(bbrf domains -p "$program" |grep -v DEBUG|tr ' ' '\n')
+    wildcard=$(bbrf scope in --wildcard -p $program | unfurl -u apexes)	
+    numDomains=$(echo "$doms"|wc -l)
+    numWildcard=$(echo "$wildcard"|wc -l)
+
+    if [[ ${#doms} -gt 0 ]]; then
+
+	echo -en "${RED} Using httpx in $numDomains domains from $program program ${ENDCOLOR}\n"
+                #only using HEAD method, since in this step we just care about resolving URLS
+	echo "$doms"|dnsx -silent  |httpx -x HEAD -fr -nc -sc -cl -silent -proxy http://127.0.0.1:8888 |tr -d '[]' | tee >(awk '{n=split($2, a, ","); print $1, a[n], $3}') | bbrf url add - -p "$program" -s httpx -t updated:$(date +"%Y%m%d") --show-new
+	resolved=$(bbrf urls where updated is $(date +"%Y%m%d") -p $program)
+	numResolved=$(echo "$resolved" |wc -l)
+	     echo -en "${RED} Using Gau in $numWildcard wildcard domains from $program program ${ENDCOLOR}\n"
+             echo "$wildcard"| /home/joaco/go/bin/gau --blacklist ttf,woff,woff,svg,png,jpg,gif --ft text/plain --subs | httpx -x HEAD -fr -silent -nc -cl -sc |tr -d '[]' | tee >(awk '{n=split($2, a, ","); print $1, a[n], $3}') | bbrf url add - -s gau -p "$program" -t updated:$(date +"%Y%m%d") --show-new
+            #echo -en "${RED} Using httprobe in $numDomains domains (threads: $threads)${ENDCOLOR}\n"
+            #echo "$doms"|httprobe -c $threads --prefer-https|bbrf url add - -s httprobe --show-new -p "$program"
+      
+	# We use Github-endpoints to get enpoints from github
+	     echo -en "${RED} Using Github in $numWildcard wildcard domains from $program program ${ENDCOLOR}\n"
+	     for wild in $(bbrf scope in --wildcard -p $program | unfurl -u apexes);do https_proxy=http://127.0.0.1:8888 github-endpoints -d $wild -t ~/.tokens -raw | httpx -x HEAD -fr -nc -cl -sc -silent |tr -d '[]' | tee >(awk '{n=split($2, a, ","); print $1, a[n], $3}') | bbrf url add - -s github -p "$program" -t updated:$(date +"%Y%m%d") --show-new;done 
+	    #echo -en "${RED} Using httprobe in $numDomains domains (threads: $threads)${ENDCOLOR}\n"
+	    #echo "$doms"|httprobe -c $threads --prefer-https|bbrf url add - -s httprobe --show-new -p "$program"
+	# We use Katana to crawl endpoints
+	     echo -en "${RED} Using Katana in $numResolved resolved domains from $program program ${ENDCOLOR}\n"
+	     echo "$resolved"| ~/go/bin/katana -silent -config ~/.config/katana/config.yaml -proxy http://127.0.0.1:8888 | httpx -x HEAD -nc -silent -fr -cl -sc | tr -d '[]' |  tee >(awk '{n=split($2, a, ","); print $1, a[n], $3}')| bbrf url add - -s katana -p "$program" -t updated:$(date +"%Y%m%d") --show-new
+	    #echo -en "${RED} Using httprobe in $numDomains domains (threads: $threads)${ENDCOLOR}\n"
+	    #echo "$doms"|httprobe -c $threads --prefer-https|bbrf url add - -s httprobe --show-new -p "$program"
+	    allurls=$(bbrf urls where updated is $(date +"%Y%m%d"))
+	    echo $allurls | ffuf-workflow | httpx -x HEAD -fr -nc -sc -cl -silent -proxy http://127.0.0.1:8888 |tr -d '[]' | tee >(awk '{n=split($2, a, ","); print $1, a[n], $3}') | bbrf url add - -p "$program" -s workflow -t updated:$(date +"%Y%m%d") --show-new
+	fi
+
+}
+
+

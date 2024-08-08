@@ -1,0 +1,3 @@
+trufflehogz() {
+	trufflehog filesystem <(curl -sk "$1") --only-verified
+}

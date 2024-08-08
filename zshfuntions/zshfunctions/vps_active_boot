@@ -1,0 +1,7 @@
+vps_active_puredns(){
+	vps tmux new-window -n purends -t ReconAuto
+	#Send command 
+	vps tmux send-keys -t ReconAuto:puredns \'puredns \' ENTER
+	vps tmux send-keys -t ReconAuto:dnsx \' dnsx -silent -a -resp -nc -t 150 | tr -d '[]' |tee >(awk '{print $3":"$1}' | bbrf ip add - -p @INFER \
+		-t updated:$(date +”%Y%m%d”) --show-new) \' ENTER 
+}

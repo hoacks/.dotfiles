@@ -1,0 +1,8 @@
+https://marianosconvenience.instacart.com/orders/
+https://marianosconvenience.instacart.com/assets
+https://marianosconvenience.instacart.com/client-side-redirect/*
+https://marianosconvenience.instacart.com/ex/
+https://marianosconvenience.instacart.com
+https://marianosconvenience.instacart.com/api/
+https://marianosconvenience.instacart.com/
+https://marianosconvenience.instacart.com/store/
